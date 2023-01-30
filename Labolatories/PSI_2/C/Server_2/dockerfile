@@ -1,0 +1,4 @@
+FROM gcc:4.9
+COPY . /
+RUN gcc -o z22_server_2_tcp z22_server_2_tcp.c
+ENTRYPOINT ["./z22_server_2_tcp"]

@@ -1,0 +1,18 @@
+{
+  "client": {
+    "ip": "127.0.0.1",
+    "port": 5010,
+    "buffer_size": 1024
+  },
+  "server": {
+    "ip": "127.0.0.1",
+    "port": 5011,
+    "buffer_size": 1024
+  },
+  "tcp_server": {
+    "ip": "127.0.0.1",
+    "port": 5012,
+    "buffer_size": 1024
+  },
+  "xor_key": "SECRET"
+}

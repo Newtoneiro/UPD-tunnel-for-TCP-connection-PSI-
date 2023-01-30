@@ -1,0 +1,3 @@
+FROM python:3
+ADD /z22_client_2_tcp.py /
+ENTRYPOINT ["python3", "./z22_client_2_tcp.py"]

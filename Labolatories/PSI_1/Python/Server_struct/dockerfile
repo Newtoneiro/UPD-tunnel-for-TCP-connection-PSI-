@@ -1,0 +1,3 @@
+FROM python:3
+ADD z22_server_2.py /
+ENTRYPOINT ["python3", "./z22_server_2.py"]
